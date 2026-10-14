@@ -1,0 +1,5 @@
+Large language model agents are programs that use a language model as their reasoning engine. Instead of producing a single answer, an agent works in a loop: it observes the current state, decides on an action, calls a tool, and then observes the result. This loop continues until the task is finished or a stopping condition is reached.
+
+The idea sounds simple, but the details are hard. A useful agent needs reliable tool calling, a memory that survives long conversations, and a way to recover when an action fails. Evaluation is another open problem, because a single number rarely captures how well an agent behaves across many steps.
+
+For a student, the fastest way to learn is to build a small agent by hand before reaching for a framework. Write the loop yourself, give it two or three tools, and watch where it breaks. The failures are where the real research questions live.

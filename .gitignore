@@ -1,0 +1,21 @@
+# 数据与模型
+data/
+models/
+*.ckpt
+*.safetensors
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 环境与密钥
+.env
+*.key
+
+# 编辑器
+.vscode/settings.json
+.idea/
+*.log
