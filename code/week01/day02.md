@@ -1,7 +1,7 @@
-# Day A · Python 基础（一）：变量 / 字符串 / 列表 / 字典
+# Day 2 · Python 基础（一）：变量 / 字符串 / 列表 / 字典
 
 > 约 1.5 小时 = 45 分钟视频 + 45 分钟动手
-> 产出：`code/week01/basics_a.py`（今天所有练习都写在这一个文件里）
+> 产出：`code/week01/basics02.py`（今天所有练习都写在这一个文件里）
 
 ## 三条硬性要求
 
@@ -17,7 +17,7 @@ cd D:\work\agent-lab\code\week01
 ```
 
 - [ ] 提示符是 `(D:\conda-envs\agent)`
-- [ ] 在 VS Code 里新建 `basics_a.py`
+- [ ] 在 VS Code 里新建 `basics02.py`
 
 **怎么找视频章节**：B 站课程的分 P 标题就是章节名，直接在目录里翻关键词「变量」「字符串」「列表」「字典」。
 
@@ -262,7 +262,7 @@ for w, c in Counter(text.split()).most_common():
 ```powershell
 cd D:\work\agent-lab
 git add -A
-git commit -m "basics: Day A 变量/字符串/列表/字典"
+git commit -m "basics: Day 2 变量/字符串/列表/字典"
 git push
 ```
 
@@ -270,4 +270,4 @@ git push
 
 ## 明天预告
 
-**Day B：if / 循环 / 函数** —— 然后 Day C 学文件读写和异常，就可以回去把 `wordcount.py` 做完了。
+**Day 3：if / 循环 / 函数** —— 然后 Day 4 学文件读写和异常，就可以回去把 `wordcount.py` 做完了。

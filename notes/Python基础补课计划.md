@@ -25,9 +25,9 @@
 
 | 天 | 主题 | 产出文件 |
 |---|---|---|
-| Day A | 1–4（变量 / 字符串 / 列表 / 字典） | `code/week01/basics_a.py` |
-| Day B | 5–7（if / 循环 / 函数） | `code/week01/basics_b.py` |
-| Day C | 8–9（文件 / 异常）+ 复习 | `code/week01/basics_c.py` |
+| Day 2 | 1–4（变量 / 字符串 / 列表 / 字典） | `code/week01/basics02.py` |
+| Day 3 | 5–7（if / 循环 / 函数） | `code/week01/basics03.py` |
+| Day 4 | 8–9（文件 / 异常）+ 复习 | `code/week01/basics04.py` |
 
 ## 每天怎么学（1.5 小时）
 
@@ -49,7 +49,7 @@
 
 ## 学完之后
 
-回到 `code/week01/wordcount.py`（argparse 骨架已经写好、5 条验收全通过），开始项目 **Day 2**：
+回到 `code/week01/wordcount.py`（argparse 骨架已经写好、5 条验收全通过），继续**项目的第 2 步**：
 读 `sample.txt` → 统计每个词出现次数 → 打印前 N 名。
 
 ## 参考课程（B 站搜关键词）
