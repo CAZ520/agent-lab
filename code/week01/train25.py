@@ -9,5 +9,5 @@ zifu = ["apple", "banana", "apple", "orange", "banana", "apple"]
 counts = {}
 for w in zifu:
     counts[w] = counts.get(w, 0) + 1
-    print(counts)
+print(counts)
 # 还是要注意复习一下
