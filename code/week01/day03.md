@@ -10,22 +10,22 @@ conda activate agent
 cd D:\work\agent-lab\code\week01
 ```
 
-- [ ] 提示符是 `(D:\conda-envs\agent)`
+- [ x] 提示符是 `(D:\conda-envs\agent)`
 
 ## 先补完 Day 2 的两件小事（2 分钟）
 
-- [ ] `train25.py` 里 `print(counts)` **退 4 格**（挪出 for 循环）
-- [ ] `git push`（昨天只提交了，没推上去）
+- [ x] `train25.py` 里 `print(counts)` **退 4 格**（挪出 for 循环）
+- [ x] `git push`（昨天只提交了，没推上去）
 
 ---
 
 ## 第 5 关　if / elif / else（15 分钟视频）
 
 **学完必须能写出**
-- [ ] 比较运算符 `==` `!=` `>` `<` `>=` `<=`
-- [ ] 多分支 `if` / `elif` / `else`
-- [ ] 逻辑运算 `and` / `or` / `not`
-- [ ] 嵌套：`if` 里面再写 `if`
+- [ x] 比较运算符 `==` `!=` `>` `<` `>=` `<=`
+- [ x] 多分支 `if` / `elif` / `else`
+- [ x] 逻辑运算 `and` / `or` / `not`
+- [ x] 嵌套：`if` 里面再写 `if`
 
 **练习 E1　分数分档**
 
@@ -71,7 +71,7 @@ cd D:\work\agent-lab\code\week01
 
 **练习 F3　倒计时**　用 while 从 10 倒数到 1，然后打印「发射！」→ 期望 `10 9 8 ... 1 发射！`
 
-**练习 F4　统计元音**　`s = "Hello Python"`，统计里面有多少个元音字母（a e i o u，不区分大小写）→ 期望 `3`
+**练习 F4　统计元音**　` s= "Hello Python"`，统计里面有多少个元音字母（a e i o u，不区分大小写）→ 期望 `3`
 > 提示：`for c in s:` ＋ `c.lower()` ＋ `in`
 
 **练习 F5　过滤**　打印 1 到 20 里所有的偶数（用 `if` 或 `continue`）
